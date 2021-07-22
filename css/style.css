@@ -1,0 +1,167 @@
+body {
+	background: rgb(127, 173, 177);
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 800;
+    color: #0e0d0c;
+    line-height: 30px;
+    /* text-align: center; */
+}
+
+strong { font-weight: 600; }
+
+a, a:hover, a:focus {
+	color: #d05a4e;
+	text-decoration: none;
+    -o-transition: all .3s; -moz-transition: all .3s; -webkit-transition: all .3s; -ms-transition: all .3s; transition: all .3s;
+}
+
+h1 {
+	margin-top: 10px;
+	font-size: 30px;
+    font-weight: 600;
+    color: #615c58;
+    line-height: 42px;
+}
+
+img { max-width: 100%; }
+
+::-moz-selection { background: #d05a4e; color: #fff; text-shadow: none; }
+::selection { background: #d05a4e; color: #fff; text-shadow: none; }
+
+.fa-code{
+    color: #2163af;
+    font-size: 4em;
+    margin-left: 8.5rem;
+    display: inline-block;
+    /* display: flex;
+    justify-content: center; */
+  }
+
+.skills{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.skills li  {
+border-radius: 10rem;
+  }
+
+.skills a{
+    max-width: 150px;
+    max-height: 75px;
+    transform: translate(-200px, 400px);
+
+}
+
+.skills .fa-code, h1 {
+    transform:  translate(200px, -100px);
+}
+
+
+  .headshot img{
+      border-radius: 10rem;
+      margin-left: 8.5rem;
+  }
+/***** Top content *****/
+
+.inner-bg {
+    padding: 40px 0 170px 0;
+}
+
+.top-content h1 { color: #fff; }
+
+.top-content .description {
+	margin: 20px 0 10px 0;
+	color: #fff;
+}
+
+.top-content .description a { color: #fff; border-bottom: 2px dotted #fff; }
+.top-content .description a:hover, 
+.top-content .description a:focus { border: 0; }
+
+.top-content .top-big-link {
+	margin-top: 35px;
+}
+
+.form-box {
+	padding-top: 40px;
+}
+
+.form-top {
+	padding: 25px 25px 15px 25px;
+	background: #f7f4ed;
+	text-align: left;
+}
+
+.form-top h3 { margin-top: 0; }
+
+.form-bottom {
+	padding: 25px 25px 30px 25px;
+	background: #ebe6e0;
+	text-align: left;
+}
+
+.form-bottom form textarea {
+	height: 100px;
+}
+
+.form-bottom form .input-error {
+	border-color: #d05a4e;
+}
+
+
+/* Footer */
+
+footer {
+    background-color: #383838;
+    padding: 1rem 2rem 3rem;
+    margin-top: 6rem;
+    
+  }
+  footer img {
+    height: 3.5rem;
+    margin: 1.5rem auto;
+  }
+  footer p, footer a, .socket a {
+    color: white;
+    text-decoration: none;
+  }
+  ul.social {
+    list-style-type: none;
+    display: flex;
+    max-width: 16rem;
+    margin: 0 auto;
+    padding: 0;
+  }
+  ul.social li {
+    margin: 0 auto;
+  }
+  footer .svg-inline--fa {
+    font-size: 2.3rem;
+  }
+  footer .svg-inline--fa:hover {
+    color: #68a0d2;
+  }
+  
+/***** Media queries *****/
+
+@media (min-width: 992px) and (max-width: 1199px) {}
+
+@media (min-width: 768px) and (max-width: 991px) {}
+
+@media (max-width: 767px) {
+	
+	.inner-bg { padding: 40px 0 110px 0; }
+
+}
+
+
+
+
+ul :first-of-type{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
