@@ -8,13 +8,18 @@ body {
     /* text-align: center; */
 }
 
+#page-wrapper {
+    position: relative;
+    width: 100%;
+}
+
 .intro {
     position: relative;
     text-align: center;
     color: white;
 }
 
-.top-center {
+/* .top-center {
     position: absolute;
     top: 8rem;
     left: 48rem;
@@ -26,7 +31,21 @@ body {
     bottom: 8rem;
     left: 48rem;
     font-size: 7rem;
+} */
+
+.top-center {
+    position: relative;
+    text-align: center;
+    transform: translateY(-45rem);
+    font-size: 10rem;
 }
+
+.bottom-center {
+    text-align: center;
+    transform: translateY(-10rem);
+    font-size: 6rem;
+}
+
 
 /* .intro {
     display: flex;
