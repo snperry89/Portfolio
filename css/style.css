@@ -1,0 +1,298 @@
+/* .navbar {
+  background-color: #383838;
+  justify-content: center;
+  height: 60px;
+  border-width:2px;
+  border-color: white;
+} */
+
+hr {
+  background-color: navy;
+  height: 2px;
+  width: 25%;
+}
+
+.modal-body hr {
+  clear: both;
+  visibility: hidden;
+}
+
+h2 {
+  padding-bottom: 1rem;
+  font-size: 5rem;
+  font-family: 'Lobster Two', cursive;
+}
+
+.modal-title{
+  margin-left: 10rem;
+}
+
+#projects-modal-lg .modal-title {
+  margin-left: 75rem;
+}
+
+.headshot .btn {
+  color: navy;
+  justify-content: center;
+  margin-top: 0;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+ button {
+  color:black;
+  background:transparent;
+  border-width:2px;
+  border-style: solid;
+  border-color: black;
+  position:relative;
+  margin:1em;
+  display:inline-block;
+  padding:0.5em 1em;
+  transition:all 0.3s ease-in-out;
+  text-align:center;
+  font-family:'Syncopate', sans-serif;
+  font-weight:bold
+}
+
+.headshot button:before, .headshot button:after {
+  content:'';
+  display:block;
+  position:absolute;
+  border-color:navy;
+  box-sizing:border-box;
+  border-style:solid;
+  width:1em;
+  height:1em;
+  transition:all 0.3s ease-in-out
+}
+
+.headshot button:before {
+  top:-6px;
+  left:-6px;
+  border-width:2px 0 0 2px;
+  z-index:5;
+}
+
+.headshot button:after {
+  bottom:-6px;
+  right:-6px;
+  border-width:0 2px 2px 0;
+}
+
+.headshot button:hover:before, .headshot button:hover:after {
+  width:calc(100% + 12px);
+  height:calc(100% + 12px);
+
+}
+
+.headshot button:hover {
+  color:whitesmoke;
+  background-color:red;
+}
+
+body {
+  background-color: gray;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.jumbotron{
+  padding-top: 7rem;
+  background-image: url("../img/eatsleepcodebg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 40rem;
+  border-bottom: 2px solid rgb(0, 0, 0, 0.5);
+  box-shadow: 0px 20px 25px black;
+}
+
+
+.top-center {
+  position: relative;
+  text-align: center;
+  transform: translateY(-8rem);
+  font-size: 10rem;
+  color: gray;
+}
+
+.bottom-center {
+  text-align: center;
+  transform: translateY(12rem);
+  font-size: 6rem;
+  color:gray;
+}
+
+ .headshot img{
+  border-radius: 10rem;
+  height: 60rem;
+  width: auto;
+  margin-left: 0;
+  padding-bottom: 2rem;
+  }
+
+  .headshot p{
+    text-align: center;
+  }
+
+  .about p {
+    font-size: 1.5rem;
+    text-indent: 4ch;
+  }
+
+/* .skills{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  background-color: black;
+}
+
+.skills h2, .fa-code {
+  transform:  translate(210px, -100px);
+  font-size: 5rem;
+  color:rgb(226, 118, 10);
+}
+
+.skills h1 {
+  transform:  translate(270px, -100px);
+  font-size: 5rem;
+} */
+/* Footer */
+
+footer {
+  background-color: #383838;
+  padding-top: 1rem;
+  margin-top: 3rem;
+  height: 5.5rem;
+  font-size: larger;
+  justify-content: center;
+
+}
+footer img {
+  height: 3.5rem;
+  margin: 1.5rem auto;
+}
+footer p, footer a, .socket a {
+  color: white;
+  text-decoration: none;
+}
+ul.social {
+  list-style-type: none;
+  display: flex;
+  max-width: 16rem;
+  margin: 0 auto;
+  padding: 0;
+}
+ul.social li {
+  margin: 0 auto;
+}
+footer .svg-inline--fa {
+  font-size: 2.3rem;
+}
+footer .svg-inline--fa:hover {
+  color: #68a0d2;
+}
+
+
+
+
+
+/* FORM */
+.form-box {
+	padding-top: 40px;
+    }
+
+.form-top {
+	padding: 25px 25px 15px 25px;
+	background: #f7f4ed;
+	text-align: left;
+}
+
+.form-top h3 { margin-top: 0; }
+
+.form-bottom {
+	padding: 25px 25px 30px 25px;
+	background: #ebe6e0;
+	text-align: left;
+}
+
+.form-bottom form textarea {
+	height: 100px;
+}
+
+.form-bottom form .input-error {
+	border-color: #d05a4e;
+}
+
+.contact-form {
+    background-color: #ccbfa3ce;
+}
+
+/* form .btn {
+    background-color: #ac2615;
+    color: white;
+    border: 2px solid white;
+}
+
+.form button:hover {
+  color:whitesmoke;
+  background-color:red;
+} */
+
+/* FORM */
+
+@keyframes fadeItIn{
+  0%{
+    opacity: 0;
+  }
+
+  100%{
+    opacity: 1;
+  }
+}
+
+.form-box header {
+  justify-content: right;
+}
+
+
+/* Modal Close Button */
+.close-button {
+  border: none;
+  display: inline-block;
+  padding: 8px 16px;
+  vertical-align: middle;
+  overflow: hidden;
+  text-decoration: none;
+  color: white;
+  background-color: inherit;
+  text-align: right;
+  cursor: pointer;
+  white-space: nowrap;
+}
+
+.topright {
+  position: relative;
+  left: 0;
+  top: 0;
+}
+/* Modal Close Button */
+
+
+.modal-body li{
+border-radius: 10rem;
+border: solid black;
+max-width: 60%;
+text-align: center;
+margin-left: 4rem;
+}
+
+.modal-header {
+  background: #f7f4ed;
+}
+
+.modal-body {
+  background-color: #ccbfa3ce;
+  width: 100%;
+  margin-left: 0rem;
+}
